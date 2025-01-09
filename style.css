@@ -191,6 +191,17 @@ main {
     background: #FFF;
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right>a {
+    font-weight: 700;
+    color: #0D1321;
+}
+
 .support {
     margin-top: 50px;
     background-image: url('assets/handshake.jpg');
@@ -203,16 +214,21 @@ main {
     border-radius: 10px;
     color: #FFF;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Center text content */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    text-align: center;
+    /* Center text content */
     flex-direction: column;
 }
+
 .support textarea {
     border-radius: 10px;
     text-align: center;
     align-content: center;
 }
+
 .support h1 {
     color: #FFF;
 }
@@ -220,6 +236,7 @@ main {
 .inputt {
     display: flex;
 }
+
 footer {
     display: flex;
     justify-content: space-around;
