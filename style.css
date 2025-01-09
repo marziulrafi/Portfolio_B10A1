@@ -48,6 +48,7 @@ p {
 }
 
 .contact-btn {
+    cursor: pointer;
     margin-top: 10px;
     color: #FFF;
     text-align: center;
@@ -67,12 +68,17 @@ main {
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
-    background: rgba(13, 19, 33, 0.02);
     text-align: center;
     padding: 20px;
 }
 
-.box1 {
+.why-container {
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.box {
     display: flex;
     width: 70%;
     margin: 0 auto;
@@ -85,6 +91,7 @@ main {
 }
 
 .learn {
+    cursor: pointer;
     margin-top: 10px;
     display: flex;
     padding: 8px 16px;
@@ -100,6 +107,123 @@ main {
     font-weight: 600;
     line-height: normal;
 }
+
 .box-tit {
     font-size: 24px;
+}
+
+.inspiration {
+    margin-top: 50px;
+}
+
+.inspiration>p {
+    margin-top: 15px;
+}
+
+.frame {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    padding: 26px;
+    align-items: center;
+    gap: 10px;
+}
+
+.targets {
+    margin-top: 50px;
+}
+
+.targets>p {
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: justify;
+    display: flex;
+    width: 250px;
+    height: 210px;
+    padding: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 14px;
+}
+
+.card>a {
+    font-weight: 700;
+    color: #0D1321;
+}
+
+.html-card {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.next-targets {
+    margin-top: 50px;
+}
+
+.next-box1,
+.next-box2,
+.next-box3 {
+    margin-top: 20px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: justify;
+    /* align-items: center; */
+    /* gap: 20px; */
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+.support {
+    margin-top: 50px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    gap: 15px;
+    border-radius: 10px;
+    color: #FFF;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text content */
+    flex-direction: column;
+}
+.support textarea {
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+.support h1 {
+    color: #FFF;
+}
+
+.inputt {
+    display: flex;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.03);
 }
