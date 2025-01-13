@@ -204,7 +204,7 @@ main {
 
 .support {
     margin-top: 50px;
-    background-image: url('assets/handshake.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('assets/handshake.jpg') lightgray 50% / cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,11 +215,8 @@ main {
     color: #FFF;
     display: flex;
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
     text-align: center;
-    /* Center text content */
     flex-direction: column;
 }
 
@@ -231,6 +228,17 @@ main {
 
 .support h1 {
     color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.support >p {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
 }
 
 .inputt {
